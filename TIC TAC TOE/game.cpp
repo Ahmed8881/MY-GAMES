@@ -32,6 +32,12 @@ else if (a == 0)
          {
             cout << "Game draw";
             break;
+             if (choice >= 1 && choice <= 9 && square[choice] == (choice + '0'))
+            square[choice] = mark;
+        else {
+            cout << "Invalid move ";
+            getch();
+        }
         }
 board();
         setcolor(6);
