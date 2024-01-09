@@ -60,3 +60,15 @@ board();
     getch();
     return 0;
 }
+ void board(){
+    system("cls");
+    setcolor(4);
+    cout<<R"( ____  ____  ___    ____   __    ___    ____  _____  ____ )"<<endl;
+    cout<<R"((_  _)(_  _)/ __)  (_  _) /__\  / __)  (_  _)(  _  )( ___))"<<endl;
+    cout<<R"(  )(   _)(_( (__     )(  /(__)\( (__     )(   )(_)(  )__) )"<<endl;
+    cout<<R"( (__) (____)\___)   (__)(__)(__)\___)   (__) (_____)(____))"<<endl;
+    setcolor(15);
+    cout<<endl;
+    setcolor(3);
+    cout<<"PLAYER 1(X)------PLAYER 2(O)"<<endl;
+    cout<<endl;
