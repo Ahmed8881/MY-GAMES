@@ -55,3 +55,8 @@ board();
             break;
         }
     } 
+ while (true);
+
+    getch();
+    return 0;
+}
