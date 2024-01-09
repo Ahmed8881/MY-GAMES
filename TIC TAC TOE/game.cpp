@@ -46,3 +46,12 @@ board();
         setcolor(2);
         mark = 'O';
         setcolor(2);
+ a = checkwin();
+        if (a == 1) {
+            cout << "Player 2 wins";
+            break;
+        } else if (a == 0) {
+            cout << "Game draw";
+            break;
+        }
+    } 
