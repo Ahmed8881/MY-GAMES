@@ -13,3 +13,5 @@ int main() {
 do {
         board();
         setcolor(11);
+cout << "Player 1, enter a number: ";
+        cin >> choice;
