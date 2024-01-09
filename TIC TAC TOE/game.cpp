@@ -28,3 +28,8 @@ int a = checkwin();
             cout << "Player 1 wins";
             break;
         }
+else if (a == 0)
+         {
+            cout << "Game draw";
+            break;
+        }
