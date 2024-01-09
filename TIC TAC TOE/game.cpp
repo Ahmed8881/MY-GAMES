@@ -17,3 +17,5 @@ cout << "Player 1, enter a number: ";
         cin >> choice;
 setcolor(15);
         mark = 'X';
+ if (choice >= 1 && choice <= 9 && square[choice] == (choice + '0'))
+            square[choice] = mark;
