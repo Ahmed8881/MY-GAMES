@@ -33,3 +33,10 @@ else if (a == 0)
             cout << "Game draw";
             break;
         }
+board();
+        setcolor(6);
+        cout << "Player 2, enter a number: ";
+        cin >> choice;
+        setcolor(2);
+        mark = 'O';
+        setcolor(2);
