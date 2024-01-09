@@ -23,3 +23,8 @@ else {
             cout << "Invalid move ";
             getch();
         }
+int a = checkwin();
+        if (a == 1) {
+            cout << "Player 1 wins";
+            break;
+        }
