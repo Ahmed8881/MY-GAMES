@@ -10,3 +10,6 @@ void board();
 int main() {
     int choice;
     char mark;
+do {
+        board();
+        setcolor(11);
