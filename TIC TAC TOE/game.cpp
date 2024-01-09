@@ -19,3 +19,7 @@ setcolor(15);
         mark = 'X';
  if (choice >= 1 && choice <= 9 && square[choice] == (choice + '0'))
             square[choice] = mark;
+else {
+            cout << "Invalid move ";
+            getch();
+        }
