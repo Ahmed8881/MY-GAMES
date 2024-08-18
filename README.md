@@ -7,13 +7,7 @@
    - [Tank War](#tank-war)
    - [Tic Tac Toe](#tic-tac-toe)
 3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributors](#contributors)
-6. [License](#license)
-7. [Contact](#contact)
-8. [Screenshots](#screenshots)
-9. [Known Issues](#known-issues)
-10. [Future Enhancements](#future-enhancements)
+
 
 ## Overview
 
